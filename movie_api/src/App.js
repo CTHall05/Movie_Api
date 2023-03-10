@@ -34,14 +34,14 @@ const App = () => {
   
 
   useEffect(() => {
-    searchMovies('Shrek');
+    searchMovies('Rocky');
   }, []);
 
   console.log(movies)
 
   return (
     <div className="app">
-      <h1>Movie Land</h1>
+      <h1>Movie Search</h1>
 
       <div className="search">
         <input 
@@ -51,7 +51,7 @@ const App = () => {
           onChange={(event) => setSearchTerm(event.target.value)}
           />
           <FaSearchengin 
-            className=""
+            className="searchIcon"
             onClick={() => searchMovies(searchTerm)}    
           />
       </div>
