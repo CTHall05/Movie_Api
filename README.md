@@ -1,14 +1,33 @@
-Movie API React App
+# Movie API React App
+
 This is a Movie API React App built to search for movies using the OMDb API.
 
-How to Run the App
+# How to Run the App
 To run this app on your local machine, follow these steps:
 
-Clone this repository using git clone https://github.com/your-repo-url.git.
-In the terminal, navigate to the project directory and run npm install to install the required dependencies.
+Clone this repository using git clone https://github.com/CTHall05/Movie_Api.git
+
+In the terminal, navigate to the project directory and run: 
+
+```
+npm install 
+
+```
+
+to install the required dependencies.
+
 Obtain an API key from OMDb API and add it to the API_URL constant in the App.js file.
-Run npm start to start the app.
+
+Run in your chosen code editor's terminal:
+
+```
+npm start 
+```
+
+to start the app.
+
 Open http://localhost:3000/ in your browser to view the app.
+
 How to Use the App
 Enter a search term in the input field.
 Click the search icon or press Enter to search for movies.
